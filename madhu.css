@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color:   #8168a4;
+    color: rgb(237, 230, 230);
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+header h2 {
+    margin: 0;
+    font-size: 28px;
+}
+section {
+    margin: 20px;
+}
+h2 {
+    color: #c186eb;
+}
+p1 {
+    font-size: 25px; /* Adjust the size as needed */
+}
+p2 {
+    color:   #c186eb;
+}
+.skills, .projects, .contact-form, .about-me {
+    margin-bottom: 20px;
+}
+.skills ul, .projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+.skills li, .projects li {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+footer {
+    background-color: #1d1c1f;
+    color: rgb(270, 53%, 70%);
+    text-align: center;
+    padding: 10px;
+}
+footer a {
+    color: hsl(270, 53%, 70%);
+    text-decoration: none;
+    margin: 0 10px;
+}
+footer a:hover {
+    color:   #8168a4;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.contact-form button {
+    background-color:  #c186eb;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: #c186eb;
+}
+</style>
